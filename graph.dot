@@ -1,0 +1,23 @@
+digraph {
+	graph [overlap=false, size=14];
+	root="github.com/go-modules-by-example-staging/\nlistmodwhygraph";
+	node [  shape = plaintext, fontname = "Helvetica", fontsize=24];
+	"github.com/go-modules-by-example-staging/\nlistmodwhygraph" [style = filled, fillcolor = "#E94762"];
+"github.com/go-modules-by-example-staging/\nlistmodwhygraph" -> "github.com/go-modules-by-example-staging/\nincomplete"
+"github.com/go-modules-by-example-staging/\nlistmodwhygraph" -> "github.com/kr/\npretty"
+"github.com/go-modules-by-example-staging/\nlistmodwhygraph" -> "github.com/sirupsen/\nlogrus"
+"github.com/go-modules-by-example-staging/\nlistmodwhygraph" -> "golang.org/x/tools"
+"github.com/kr/\npretty" -> "github.com/kr/\ntext"
+"github.com/kr/\ntext" -> "github.com/kr/\npty"
+"github.com/sirupsen/\nlogrus" -> "github.com/davecgh/\ngo-spew"
+"github.com/sirupsen/\nlogrus" -> "github.com/konsorten/\ngo-windows-terminal-sequences"
+"github.com/sirupsen/\nlogrus" -> "github.com/pmezard/\ngo-difflib"
+"github.com/sirupsen/\nlogrus" -> "github.com/stretchr/\nobjx"
+"github.com/sirupsen/\nlogrus" -> "github.com/stretchr/\ntestify"
+"github.com/sirupsen/\nlogrus" -> "golang.org/x/sys"
+"golang.org/x/crypto" -> "golang.org/x/sys"
+"golang.org/x/net" -> "golang.org/x/crypto"
+"golang.org/x/net" -> "golang.org/x/text"
+"golang.org/x/tools" -> "golang.org/x/net"
+"golang.org/x/tools" -> "golang.org/x/sync"
+}

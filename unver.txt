@@ -1,0 +1,17 @@
+github.com/go-modules-by-example-staging/listmodwhygraph github.com/go-modules-by-example-staging/incomplete
+github.com/go-modules-by-example-staging/listmodwhygraph github.com/kr/pretty
+github.com/go-modules-by-example-staging/listmodwhygraph github.com/sirupsen/logrus
+github.com/go-modules-by-example-staging/listmodwhygraph golang.org/x/tools
+github.com/kr/pretty github.com/kr/text
+github.com/kr/text github.com/kr/pty
+github.com/sirupsen/logrus github.com/davecgh/go-spew
+github.com/sirupsen/logrus github.com/konsorten/go-windows-terminal-sequences
+github.com/sirupsen/logrus github.com/pmezard/go-difflib
+github.com/sirupsen/logrus github.com/stretchr/objx
+github.com/sirupsen/logrus github.com/stretchr/testify
+github.com/sirupsen/logrus golang.org/x/sys
+golang.org/x/crypto golang.org/x/sys
+golang.org/x/net golang.org/x/crypto
+golang.org/x/net golang.org/x/text
+golang.org/x/tools golang.org/x/net
+golang.org/x/tools golang.org/x/sync
